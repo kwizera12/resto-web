@@ -1,18 +1,23 @@
  <!DOCTYPE html>
 <html lang="en">
 <head>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <link rel="stylesheet"type="text/css"href="vendors/css/normalize.css"/>
 <link rel="stylesheet"type="text/css"href="vendors/css/new folder/grid.css"/>
 <link rel="stylesheet"type="text/css"href="vendors/css/ionicons.min.css"/>
 <link rel="stylesheet"type="text/css" href="resource/css/style.css"/>
+<link rel="stylesheet"type="text/css" href="resource/css/queries.css"/>
 <link href='https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,300&display=swap' rel='stylesheet' type='text/css'/>
 <title>omnifood</title>
 </head>
 <body>
     <header>
-        <nav>
+        <nav class="sticky" >
           <div class="row">
             <img src="Omnifood Contents/logo-white.png" alt="omnifood logo" class="logo">
+            <img src="Omnifood Contents/logo.png" alt="omnifood logo" class="logo-black">
             <ul class="main-nav">
                 <li><a href="#">food delivery</a></li>
                 <li><a href="#">how it works</a></li>
@@ -24,12 +29,12 @@
         </nav>
      <div class="hero-text-box">
         <h1>Goodbye junk food.<br> Hello super healthy meals.</h1> 
-        <a class="btn btn-full" href="#">I’m hungry </a>
-        <a class="btn btn-ghost" href="#">show me more</a>
+        <a class="btn btn-full js--scroll-to-plans" href="#">I’m hungry </a>
+        <a class="btn btn-ghost  js--scroll-to-start" href="#">show me more</a>
      </div>
            
     </header>
-    <section class="section features">
+    <section class="section-features js--section-features">
         <div class="row">
             
 
@@ -462,10 +467,14 @@
     copyright &copy; 2021 by KWIZERA.&nbsp;  alright reserved
 </p>
 </footer>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/respond@0.9.0/main.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/selectivizr@1.0.3/selectivizr.min.js"></script>
+<script src="vendors/js/jquery.waypoints.min.js"></script>
+<script src="resource/java/script.js"></script>
 
 </body>
-
-
 
 
 
